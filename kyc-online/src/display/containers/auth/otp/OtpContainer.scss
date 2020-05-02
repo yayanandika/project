@@ -1,0 +1,51 @@
+.container-otp {
+  height: 100%;
+  @media screen and (max-width: 800px) {
+    padding: 118px 80px 0px 80px;
+  }
+  padding: 100px 100px 0px 100px;
+  text-align: center;
+  .title-otp {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .sub-title-otp {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 32px;
+  }
+
+  .title-selection-otp {
+    margin-bottom: 16px;
+    width: 100%;
+    .input-otp {
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 3px solid #b8b8b8;
+      text-align: center;
+      color: #000000;
+      font-size: 33px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      line-height: 40px;
+      max-width: 400px;
+    }
+    .ant-input:focus {
+      border-color: #da3832;
+      outline: 0;
+      -webkit-box-shadow: 0 0 0 0 rgba(87, 168, 233, 0.2);
+      box-shadow: 0 0 0 0 rgba(87, 168, 233, 0.2);
+    }
+    .ant-input:placeholder-shown {
+      color: #AEAEAE;
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 23px;
+      letter-spacing: 2px;
+    }
+  }
+}

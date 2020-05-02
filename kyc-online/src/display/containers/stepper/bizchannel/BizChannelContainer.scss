@@ -1,0 +1,89 @@
+.container-bizchannel{
+    padding: 135px 0px 0px 60px;
+    .title-bizchannel {
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+      .sub-title-bizchannel {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: left;
+        margin-bottom: 32px;
+      }
+      .title-content-bizchannel {
+        font-size: 15px;
+        line-height: 23px;
+        text-align: left;
+        margin-bottom: 7px;
+      }
+      .title-selection-bizchannel{
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: left;
+        margin-bottom: 16px;
+        .title-chkbox{
+          font-weight: 100;
+          font-size: 19.4px;
+          color: black;
+        }
+        .info-sync{
+          @media screen and (max-width: 768px){
+            margin-left: -28px;
+          }
+          @media screen and (min-width: 1024px) and (max-width: 1025px){
+            margin-left: -20px;
+          }
+          @media screen and (min-width: 1026px){
+            margin-left: -33px;
+          }
+        }
+        .anticon{
+          color: red;
+        }
+        .ant-input-number > .ant-input-number-handler-wrap{
+          display: none;
+        }
+      }
+      @media screen and (max-width: 991px){
+        .title-height-bizchannel{
+          // border: dashed 3px black;
+          margin-top: 0px;
+          line-height: 38px;
+        }
+      }
+      @media screen and (min-width: 992px){
+        .title-height-bizchannel{
+          margin-top: 0px;
+        }
+      }
+      .container-button {
+        //text-align: right;
+        margin-bottom: 40px;
+        @media screen and (max-width: 768px) and (max-height: 1024px){
+          margin-top: 60px;
+        }
+        @media screen and (max-width: 1024px) and (max-height: 768px){
+          margin-top: 70px;
+        }
+      }
+      .error-border{
+        border: solid 1px #ff4d4f;
+      }
+      .error-title{
+        color: #ff4d4f;;
+        font-family: arial;
+        font-weight: 100;
+        font-size: 14px;
+        margin-top: -15px;
+      }
+}
+
+.ant-empty{
+  display: none;
+}
+     

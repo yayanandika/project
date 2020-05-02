@@ -1,0 +1,55 @@
+.container-stake {
+  padding: 142px 64px 20px 64px;
+  .title-stake {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .sub-title-stake {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 32px;
+  }
+
+  .title-table-stake {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .ant-table {
+    thead {
+      tr th {
+        font-weight: bold;
+        text-align: center;
+      }
+
+      tr:first-child th:last-child {
+        border: none;
+        background: transparent;
+      }
+    }
+
+    tbody {
+      font-weight: bold;
+      background: #d5d5d5;
+      tr td:last-child {
+        background: white;
+        border-right: transparent;
+        border-bottom: transparent;
+      }
+    }
+  }
+
+  .ant-table-pagination.ant-pagination {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .ant-table.ant-table-bordered .ant-table-container {
+    border: transparent;
+  }
+}

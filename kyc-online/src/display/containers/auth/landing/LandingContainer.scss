@@ -1,0 +1,57 @@
+.background-landing {
+  background: url(../../../../assets/images/general/nik-macmillan-YXemfQiPR_E-unsplash.jpg);
+  background-size: cover;
+  height: 100%;
+  padding: 0px 80px;
+  .container-landing {
+    height: 100%;
+    .button-landing {
+      padding: 17px 44px;
+      height: 100%;
+      width: 100%;
+      font-size: 19px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    .button-landing:hover {
+      padding: 17px 44px;
+      height: 100%;
+      width: 100%;
+      font-size: 19px;
+      margin-bottom: 8px;
+      font-weight: 600;
+      background-color: #6E1311 !important;
+      background: #6E1311 !important;
+      border-color: #6E1311 !important;
+    }
+    .button-landing-hover {
+      color: white !important;
+      padding: 17px 44px;
+      height: 100%;
+      width: 100%;
+      font-size: 19px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    .button-landing-hover:hover {
+      padding: 17px 44px;
+      height: 100%;
+      width: 100%;
+      font-size: 19px;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #DA3832 !important ;
+      background-color: white !important;
+      background: white !important;
+    }
+    .button-title-landing {
+      text-align: center;
+      font-size: 12px;
+    }
+    .title-landing {
+      font-size: 38px;
+      margin-bottom: 40px;
+      font-weight: bold;
+    }
+  }
+}

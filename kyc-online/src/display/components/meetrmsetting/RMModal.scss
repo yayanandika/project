@@ -1,0 +1,45 @@
+.container-poprm{
+    height: 100%;
+    padding: 19px 0px 0px 0px;
+    .img-error-page{
+        // padding-right: 25px;
+        margin: auto;
+        width: 85px;
+        height: 85px;
+        margin-bottom: 10px;
+        img { 
+            width: 85px;
+            height: 85px;
+        }
+    }
+    .title-poprm{
+        margin: auto;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .sub-title-poprm{
+        margin: auto;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+        text-align: center;
+        margin-bottom: -24px;
+    }
+    .button-poprm{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
+
+.modalcustom_rmdate{
+    .ant-modal-content {
+        border-radius: 27px;
+    }
+    .ant-modal{
+        margin-top: 150px !important;
+    }
+}

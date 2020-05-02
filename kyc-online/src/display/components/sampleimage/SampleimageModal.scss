@@ -1,0 +1,26 @@
+.container-sampleimage{
+    height: 100%;
+    padding: 19px 0px 0px 0px;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .title-sampleimage{
+        margin: auto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 370px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
+
+.modalcustom_sampleimage{
+    .ant-modal{
+        margin-top: 120px !important;
+      }
+      
+    .ant-modal-content {
+        border-radius: 0px;
+    }
+}

@@ -1,0 +1,186 @@
+.container-documentupload{
+    padding: 135px 0px 0px 60px;
+    
+    .title-documentupload {
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+      .sub-title-documentupload {
+        font-size: 15px;
+        //font-weight: 300;
+        line-height: 18px;
+        text-align: left;
+        margin-bottom: 32px;
+      }
+      .title-content-documentupload {
+        font-size: 15px;
+        line-height: 23px;
+        text-align: left;
+        margin-bottom: 7px;
+      }
+      .title-selection-documentupload{
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: left;
+        margin-bottom: 16px;
+      }
+      .akta-pendirian {
+        color: #000000;
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 18px;
+        text-align: left;
+      }
+      .container-button {
+        margin-bottom: 40px;
+        @media screen and (max-width: 768px) and (max-height: 1024px){
+          margin-top: 300px;
+        }
+        @media screen and (max-width: 1024px) and (max-height: 768px){
+          margin-top: 200px;
+        }
+      }
+      .title-chkbox{
+        font-weight: 300;
+        font-size: 18px;
+        color: black;
+        margin-bottom: 15px;
+      }
+      .contoh-file {
+        color: #6E1311;
+        font-size: 14px;
+        font-weight: 400;
+        // line-height: 18px;
+        // text-align: center;
+        // margin-left: 325px;
+        // margin-top: -20px;
+        // margin-bottom: 3.18%;
+        text-decoration: underline;
+      }
+      .content-input-doumentupload{
+          margin-top: 10px;
+        .anticon{
+          color: red;
+        }
+        //   @media screen and (max-width: 768px) and (max-height: 1024px){
+        //     margin-top: 15px;
+        //   }
+      }
+      .fileName {
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: 20px;
+        text-overflow: "[ xxxx | <string> ]{1,2}";
+        max-width: 220px;
+      }
+
+      // Variables to control the truncation behaviour
+      $startFixedChars     : 3;    // Number of chars before ellipsis - have priority over end chars
+      $endFixedChars       : 8;    // Number of chars after ellipsis  - lower priority than start chars
+      $fontFaceScaleFactor : 0.46; // Magic number dependent on font face - set by trial and error
+
+      // Dervied from the 3 variables above
+      $startWidth : 1em * $fontFaceScaleFactor * ($startFixedChars + 3);
+      $endWidth   : 1em * $fontFaceScaleFactor * $endFixedChars;
+
+      .firstPart, .lastPart {
+        display: inline-block;
+        vertical-align: bottom;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      .firstPart {
+        @media screen and (max-width: 768px){
+          margin-left: 0px;
+        }
+        @media screen and (min-width: 769px){
+          margin-left: -5px;
+        }
+        margin-top: 20px;
+        max-width: calc(100% - #{$endWidth});
+        min-width: $startWidth;
+        text-overflow: ellipsis;
+      }
+      .lastPart {
+        margin-top: 20px;
+        max-width: calc(100% - #{$startWidth});
+        //direction: rtl;
+      }
+      .container {
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      
+      // .fileName:after {
+      //   content: attr(data-filetype);
+      //   position: absolute;
+      //   left: 100%;
+      //   top: 0;
+      // }
+}
+
+.ant-picker-header {
+  button {
+    color: white;
+  }
+  background-color: #6e1311;
+  color: white;
+}
+
+.ant-picker-header-view {
+  font-weight: bold;
+}
+
+.ant-picker-date-panel {
+  .ant-picker-content th:last-child {
+    color: #da3832;
+  }
+
+  .ant-picker-content td:last-child {
+    color: #da3832;
+  }
+
+  .ant-picker-cell-in-view.ant-picker-cell-today
+    .ant-picker-cell-inner::before {
+    border: none;
+  }
+}
+
+.ant-picker-panel-container{
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  background-color: transparent;
+}
+.ant-picker-body{
+  background-color: #ffffff;
+}
+.ant-picker-footer{
+  background-color: #ffffff;
+}
+
+
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon {
+    margin-bottom: 0;
+  }
+  
+  .ant-upload.ant-upload-drag p.ant-upload-text {
+    font-size: 15px;
+    color: #797979;
+  }
+  
+  .ant-upload.ant-upload-drag .ant-upload {
+      padding: 4px 0;
+  }
+  
+.ant-empty{
+  display: none;
+}
+// .ant-typography a{
+//   display: none;
+// }

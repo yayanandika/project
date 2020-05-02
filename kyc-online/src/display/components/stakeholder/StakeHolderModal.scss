@@ -1,0 +1,86 @@
+.ant-modal-content {
+  border-radius: 33px;
+  .ant-modal-header {
+    border-radius: 33px 33px 0 0;
+    border: none;
+    .ant-modal-title {
+      margin-top: 20px;
+      color: #000000;
+      font-size: 33px;
+      font-weight: bold;
+      line-height: 40px;
+      text-align: center;
+    }
+  }
+  .ant-modal-body {
+    padding: 0 50px 24px 50px;
+    .title-selection {
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 50px;
+      text-align: left;
+      margin-bottom: 16px;
+      margin-top: 10px;
+    }
+  }
+  .ant-modal-footer {
+    padding: 20px 25px;
+    border-radius: 0 0 33px 33px;
+    border: none;
+    background-color: #d5d5d5;
+  }
+}
+
+.ant-picker-header {
+  button {
+    color: white !important;
+  }
+  background-color: #6e1311;
+  color: white !important;
+}
+
+.ant-picker-header-view {
+  font-weight: bold !important;
+}
+
+.ant-picker-date-panel {
+  .ant-picker-content th:last-child {
+    color: #da3832;
+  }
+
+  .ant-picker-content td:last-child {
+    color: #da3832;
+  }
+
+  .ant-picker-cell-in-view.ant-picker-cell-today
+    .ant-picker-cell-inner::before {
+    border: none;
+  }
+}
+
+.anticon {
+  color: red;
+}
+
+.ant-input-group-wrapper {
+  vertical-align: middle;
+}
+
+.ant-upload.ant-upload-drag {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.ant-upload.ant-upload-drag p.ant-upload-text {
+  font-size: 15px;
+  color: #797979;
+}
+
+.ant-upload.ant-upload-drag .ant-upload {
+  padding: 4px 0;
+}

@@ -1,0 +1,83 @@
+.rc-steps-small {
+  .rc-steps-item-tail {
+    top: 11px;
+  }
+  .rc-steps-item-tail::after {
+    height: 2px;
+    border-radius: 1px;
+  }
+
+  .rc-steps-item-title {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .rc-steps-item-finish {
+    .rc-steps-item-icon {
+      background: white;
+      border-color: white;
+      width: 15px;
+      height: 15px;
+      border-radius: 8px;
+      margin-top: 3px;
+    }
+    .rc-steps-item-title {
+      color: white;
+    }
+    .rc-steps-item-tail::after {
+      background-color: white;
+    }
+  }
+
+  .rc-steps-item-process {
+    .rc-steps-item-icon {
+      background: white;
+      border-color: white;
+      width: 24px;
+      height: 24px;
+      border-radius: 12px;
+    }
+    .rc-steps-item-title {
+      color: white;
+    }
+    .rc-steps-item-tail::after {
+      background-color: white;
+    }
+  }
+
+  .rc-steps-item-wait {
+    .rc-steps-item-icon {
+      background: #6e1311;
+      border-color: #6e1311;
+      width: 15px;
+      height: 15px;
+      border-radius: 8px;   
+      margin-top: 3px;
+      .rc-steps-icon {
+        color: #6e1311;
+      }
+    }
+    .rc-steps-item-title {
+      color: #6e1311;
+    }
+    .rc-steps-item-tail::after {
+      background-color: #6e1311;
+    }
+  }
+}
+
+.rc-steps-label-vertical {
+  .rc-steps-item-icon {
+    margin-left: 40px;
+  }
+  .rc-steps-item-tail {
+    padding: 0px 7px;
+    z-index: -1;
+  }
+}
+
+.is-last {
+  .rc-steps-item-tail::after {
+    background-color: #6e1311 !important;
+  }
+}

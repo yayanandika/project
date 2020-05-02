@@ -1,0 +1,44 @@
+.container-nasabah {
+  height: auto;
+  padding: 50px 80px 0px 80px;
+  .title-nasabah {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .sub-title-nasabah {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+  .title-content-nasabah {
+    font-size: 15px;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  .title-selection-nasabah {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  .container-button-nasabah {
+    position: absolute;
+    bottom: 65px;
+    left: 80px;
+    right: 80px;
+    .button-next-about {
+      text-align: right;
+    }
+  }
+  .ant-tooltip-open {
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+.container-refferal {
+  @media screen and (max-width: 800px) {
+    padding: 118px 80px 0px 80px;
+  }
+  padding: 118px 100px 20px 100px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  .title-refferal {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .sub-title-refferal {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 32px;
+  }
+  .refferal-number {
+    color: #000000;
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-align: center;
+
+    .copy-refferal {
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 2px;
+      color: #da3832;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 18px;
+      background-color: #ffffff;
+      border: 1px solid #da3832;
+      border-radius: 2px;
+      margin-left: 16px;
+    }
+  }
+}

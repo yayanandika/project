@@ -1,0 +1,57 @@
+.container-term {
+  position: relative;
+  padding: 50px 80px 0px 80px;
+  .title-term {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .sub-title-term {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+  .title-content-term {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  .collapse-term .panel-term {
+    background: white;
+    border-radius: 2px;
+    border: 1px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    .ant-collapse-header {
+      border-bottom: 1px solid #979797;
+      padding: 0px 0px 10px 0px !important;
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 23px;
+    }
+    .ant-collapse-content-box {
+      padding: 0px !important;
+      margin-top: 8px;
+      color: #000000;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 18px;
+    }
+    .collapse-icon-term {
+      color: #da3832;
+    }
+  }
+  .container-checkbox-term {
+    bottom: 0px;
+    margin-bottom: 65px;
+    .button-next-term {
+      text-align: right;
+    }
+  }
+}
